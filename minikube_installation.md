@@ -145,6 +145,10 @@ If you wish to delete the Minikube cluster entirely, you can do so with:
 minikube delete
 ```
 
+in root minikube start command
+
+minikube start --driver=docker --force
+
 ---
 
 That's it! You've successfully installed Minikube on Ubuntu, and you can now start deploying Kubernetes applications for development and testing.
